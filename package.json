@@ -20,6 +20,15 @@
   },
   "files": [
     "index.js",
+    "router.js",
+    "Link.js",
+    "Redirect.js",
+    "guards.js",
+    "navCall.js",
+    "screenAnimation.js",
+    "registerScreens.js",
+    "startApp.js",
+    "layouts",
     "logo.svg"
   ],
   "engines": {

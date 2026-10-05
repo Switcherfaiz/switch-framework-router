@@ -15,6 +15,8 @@ import { RootLayout, TabLayout, StackLayout } from 'switch-framework/router';
 import { navigate, useParams, useScreenFocus } from 'switch-framework/router';
 ```
 
+The implementation lives in this package (`router.js`, `layouts/`, `registerScreens.js`, `startApp.js`). `switch-framework` re-exports the same names from `switch-framework/router` so existing app imports keep working. Navigation throws (`navigate`, `replace`, `reset`, `wipeTo`, history) report to the error overlay as **Navigation failed**. Expected missing routes still render `+not-found` and do not open the overlay.
+
 `switch-framework` still re-exports layouts for this minor. New screens and layouts should use `/router`.
 
 ## Install
