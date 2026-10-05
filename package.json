@@ -1,0 +1,38 @@
+{
+  "name": "switch-framework-router",
+  "version": "0.3.0",
+  "description": "Layouts and navigation for Switch Framework. Install with the CLI; import from switch-framework/router.",
+  "author": "Switcherfaiz",
+  "github": "https://github.com/Switcherfaiz/switch-framework-router",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Switcherfaiz/switch-framework-router.git"
+  },
+  "homepage": "https://github.com/Switcherfaiz/switch-framework-router#readme",
+  "bugs": {
+    "url": "https://github.com/Switcherfaiz/switch-framework-router/issues"
+  },
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "logo.svg"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "switch-framework",
+    "router",
+    "layouts",
+    "switch-framework-router"
+  ],
+  "peerDependencies": {
+    "switch-framework": ">=0.3.0"
+  },
+  "license": "MIT"
+}
