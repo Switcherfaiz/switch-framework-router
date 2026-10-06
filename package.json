@@ -1,7 +1,7 @@
 {
   "name": "switch-framework-router",
   "version": "0.3.0",
-  "description": "Layouts and navigation for Switch Framework. Install with the CLI; import from switch-framework/router.",
+  "description": "Layouts and navigation for Switch Framework. Import from switch-framework-router (Expo-style).",
   "author": "Switcherfaiz",
   "github": "https://github.com/Switcherfaiz/switch-framework-router",
   "repository": {
